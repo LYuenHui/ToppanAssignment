@@ -24,7 +24,7 @@ describe("Test API", () => {
   //test user scenario 1
   describe("registerStudent", () => {
     describe("given existing records ", () => {
-      it("should return 200", async () => {
+      it("should return 400", async () => {
         const sampleReq = {
           teacher: "marvin@gmail.com",
           students: ["studentjon@gmail.com", "studenthon@gmail.com", "george@gmail.com", "jeremy@gmail.com"],

@@ -9,7 +9,7 @@ const conn = mysql.createConnection({
   user: user,
   password: password,
   database: database,
-  // multipleStatements: multipleStatements,
+  multipleStatements: multipleStatements,
 });
 conn.connect((err) => {
   if (err) throw err;

@@ -1,9 +1,12 @@
 import config from "./jest-mysql-config.js";
 import createServer from "./server.js";
+import createSchema from "./resources/createSchema.js";
 
 const {
   app: { port: PORT },
 } = config;
+
+createSchema();
 
 const app = createServer();
 
