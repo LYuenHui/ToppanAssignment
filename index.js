@@ -1,4 +1,4 @@
-import config from "./jest-mysql-config.js";
+import config from "./config.js";
 import createServer from "./server.js";
 import createSchema from "./resources/createSchema.js";
 

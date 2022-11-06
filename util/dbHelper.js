@@ -1,5 +1,5 @@
 import mysql from "mysql2";
-import config from "../jest-mysql-config.js";
+import config from "../config.js";
 
 const {
   db: { host, user, password, database, multipleStatements },
