@@ -1,5 +1,9 @@
-Use toppantest;
 
+drop schema if exists fullstackdb;
+
+CREATE SCHEMA `toppantest` ;
+
+Use toppantest;
 drop table if exists studentDB;
 drop table if exists teacherdb;
 drop table if exists teacher_studentDB;
