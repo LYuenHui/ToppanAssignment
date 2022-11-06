@@ -67,6 +67,7 @@ Open `config.js` then edit it with your settings. You will need:
     
 ## Running the unit test
     $ cd unittest
+    $ npm install 
     $ npm test
     
     
