@@ -1,5 +1,5 @@
 
-drop schema if exists fullstackdb;
+drop schema if exists toppantest;
 
 CREATE SCHEMA `toppantest` ;
 
@@ -31,7 +31,7 @@ CREATE TABLE `teacher_studentDB`(
 
 
 
-INSERT into studentdb VALUES (4,'Aaron','aaron@gmail.com','A'),(5,'Geroge','george@gmail.com','A'),(6,'Jeremy','jeremy@gmail.comteacher_studentdb','S');
+INSERT into studentdb VALUES (1,'Aaron','aaron@gmail.com','A'),(2,'Geroge','george@gmail.com','A'),(3,'Jeremy','jeremy@gmail.comteacher_studentdb','A');
 INSERT into teacherdb VALUES (1,'Marvin','marvin@gmail.com','A'),(2,'kockshern','kockshern@gmail.com','A'),(3,'david','david@gmail.com','S');
 INSERT into teacher_studentdb VALUES ('marvin@gmail.com','george@gmail.com'),('marvin@gmail.com','jeremy@gmail.com'),('marvin@gmail.com','aaron@gmail.com');
 
