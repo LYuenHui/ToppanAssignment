@@ -59,6 +59,24 @@ Open `config.js` then edit it with your settings. You will need:
 
     $ npm start
 
+## Currrent DB Data
+    teacherDB
+      -marvin@gmail.com
+      -rex@gmail.com
+      -david@gmail.com
+      -teacherken@gmail.com
+      -teacherjoe@gmail.com  
+    studentDB
+      -aaron@gmail.com
+      -george@gmail.com
+      -jeremy@gmail.com
+      -studentjon@gmail.com
+      -studenthon@gmail.com
+    teacher_studentDB
+      -marvin@gmail.com',george@gmail.com
+      -marvin@gmail.com,jeremy@gmail.com
+      -marvin@gmail.com,aaron@gmail.com
+      
 ## APIs for all user stories
     POST /api/register
     GET /api/commonstudents
